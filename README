@@ -7,7 +7,7 @@ COMP3005A3Q1/
 	src/main/java/Main.java
 	pom.xml
 Video Demonstration:
-
+https://youtu.be/XAVggwR8QB4?si=zDlFpbkogsJ1Pcn3
 Setup:
 Open Postgresql with hostname localhost using port 5432 and create a database called A3Q1, in that database, open the query tool and enter the following query:
 CREATE TABLE students(
