@@ -64,6 +64,7 @@ public class Main {
         }
     }
     //addStudent(first_name, last_name, email, enrollment_date): Inserts a new student record into the students table.
+    // Uses an Insert statement with the specified info
     public static void addStudent(String first_name,String last_name,String email,String enrollment_date){
         try{
             Class.forName("org.postgresql.Driver");
@@ -77,6 +78,7 @@ public class Main {
         }
     }
     //updateStudentEmail(student_id, new_email): Updates the email address for a student with the specified student_id.
+    //Uses an Update query statement with the condition that the ID matches the specified
     public static void updateStudentEmail(String student_id, String new_email){
         try{
             Class.forName("org.postgresql.Driver");
@@ -90,6 +92,7 @@ public class Main {
         }
     }
     //deleteStudent(student_id): Deletes the record of the student with the specified student_id.
+    // Uses a Delete query that checks that id matches the specified one
     public static void deleteStudent(String student_id){
         try{
             Class.forName("org.postgresql.Driver");
