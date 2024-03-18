@@ -29,3 +29,6 @@ When prompted to set up Maven press load.
 On the left hand side expand the src folder, expand the main folder and expand the java folder.
 Then click on the Main class file and press run in the top right hand corner.
 This will open a terminal at the bottom of the window.
+Queries to test the effect on the database:
+SELECT *
+FROM students;
