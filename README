@@ -18,6 +18,9 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 To Compile: 
-Download and extract the files of this repository
-Open IntelliJ, go to open and select the extracted folder to open
-When prompted to set up 
+Download and extract the files of this repository.
+Open IntelliJ, go to open and select the extracted folder to open.
+When prompted to set up Maven press load.
+On the left hand side expand the src folder, expand the main folder and expand the java folder.
+Then click on the Main class file and press run in the top right hand corner.
+This will open a terminal at the bottom of the window.
