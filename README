@@ -2,6 +2,11 @@ COMP 3005 Assignment 3 Question 1
 Justin Bacic 
 101233929
 Repository Contents:
+README.txt
+COMP3005A3Q1/
+	src/main/java/Main.java
+	pom.xml
+Video Demonstration:
 
 Setup:
 Open Postgresql with hostname localhost using port 5432 and create a database called A3Q1, in that database, open the query tool and enter the following query:
