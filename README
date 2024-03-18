@@ -1,0 +1,23 @@
+COMP 3005 Assignment 3 Question 1
+Justin Bacic 
+101233929
+Repository Contents:
+
+Setup:
+Open Postgresql with hostname localhost using port 5432 and create a database called A3Q1, in that database, open the query tool and enter the following query:
+CREATE TABLE students(
+	student_id SERIAL PRIMARY KEY,
+	first_name TEXT NOT NULL,
+	last_name TEXT NOT NULL,
+	email TEXT UNIQUE NOT NULL,
+	enrollment_date DATE
+);
+This will create our relation, next populate the relation with the following query:
+INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
+('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
+('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
+('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+To Compile: 
+Download and extract the files of this repository
+Open IntelliJ, go to open and select the extracted folder to open
+When prompted to set up 
